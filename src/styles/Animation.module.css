@@ -1,0 +1,82 @@
+.sceneContainer {
+    width: 200px;
+    height: 200px;
+    perspective: 600px;
+    margin: 100px auto;
+  }
+  
+  .cube {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: rotate 20s infinite linear;
+  }
+  
+  .cubeFace {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .cubeFace:hover {
+    transform: scale(1.1);
+  }
+  
+  .front  { 
+    background: rgba(90, 90, 255, 0.7); 
+    transform: rotateY(0deg) translateZ(100px); 
+  }
+  .back   { 
+    background: rgba(0, 210, 0, 0.7); 
+    transform: rotateY(180deg) translateZ(100px); 
+  }
+  .right  { 
+    background: rgba(210, 0, 0, 0.7); 
+    transform: rotateY(90deg) translateZ(100px); 
+  }
+  .left   { 
+    background: rgba(0, 180, 180, 0.7); 
+    transform: rotateY(-90deg) translateZ(100px); 
+  }
+  .top    { 
+    background: rgba(255, 90, 255, 0.7); 
+    transform: rotateX(90deg) translateZ(100px); 
+  }
+  .bottom { 
+    background: rgba(255, 165, 0, 0.7); 
+    transform: rotateX(-90deg) translateZ(100px); 
+  }
+  
+  @keyframes rotate {
+    from { transform: rotateX(0deg) rotateY(0deg); }
+    to { transform: rotateX(360deg) rotateY(360deg); }
+  }
+  
+  @media (max-width: 768px) {
+    .sceneContainer {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .cubeFace {
+      width: 150px;
+      height: 150px;
+      font-size: 18px;
+    }
+  
+    .front  { transform: rotateY(0deg) translateZ(75px); }
+    .back   { transform: rotateY(180deg) translateZ(75px); }
+    .right  { transform: rotateY(90deg) translateZ(75px); }
+    .left   { transform: rotateY(-90deg) translateZ(75px); }
+    .top    { transform: rotateX(90deg) translateZ(75px); }
+    .bottom { transform: rotateX(-90deg) translateZ(75px); }
+  }
