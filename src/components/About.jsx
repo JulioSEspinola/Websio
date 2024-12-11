@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/About.module.css';
-import logo from '../assets/websio.png'; // Adjust the path as needed
+import logo from '../assets/coding_background.jpg'; // Adjust the path as needed
 
 function About() {
   return (
@@ -10,12 +10,12 @@ function About() {
         <div className={styles.content}>
           <div className={styles.textContent}>
             <p className={styles.description}>
-              Websio is dedicated to helping small non-profits establish a strong online presence. Our team of experts is passionate about creating effective web solutions tailored to your organization's needs.
+              Websio is dedicated to helping non-profits & businesses establish a strong online presence. Our team of experts is passionate about creating effective web solutions tailored to your organization's needs.
             </p>
             <ul className={styles.featureList}>
-              <li>Customized web solutions for non-profits</li>
+              <li>Customized web solutions for non-profits & businesses</li>
               <li>Expert team with years of experience</li>
-              <li>Affordable and scalable services</li>
+              <li>Affordable and secure services</li>
               <li>Committed to your organization's success</li>
             </ul>
           </div>
