@@ -1,0 +1,65 @@
+.services {
+  padding: 5rem 2rem;
+}
+
+.title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.serviceGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.serviceCard {
+  background-color: rgba(0, 0, 0, 0.307);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(236, 234, 234, 0.1);
+  padding: 2.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px #9d00ff;
+}
+
+.serviceTitle {
+  color: #9d00ff;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.serviceDescription {
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .services {
+    padding: 3rem 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .serviceGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pricingDesciption {
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  padding: 10px;
+}
