@@ -10,11 +10,10 @@ function About() {
         <div className={styles.content}>
           <div className={styles.textContent}>
             <p className={styles.description}>
-              Websio is dedicated to helping non-profits & businesses establish a strong online presence. Our team of experts is passionate about creating effective web solutions tailored to your organization's needs.
+              Websio is dedicated to helping non-profits & businesses establish a strong online presence. We're passionate about creating effective web solutions tailored to your organization's needs.
             </p>
             <ul className={styles.featureList}>
               <li>Customized web solutions for non-profits & businesses</li>
-              <li>Expert team with years of experience</li>
               <li>Affordable and secure services</li>
               <li>Committed to your organization's success</li>
             </ul>

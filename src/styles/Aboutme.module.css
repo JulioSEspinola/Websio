@@ -1,0 +1,125 @@
+.aboutMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  max-width: 1200px; /* Adjust as needed */
+  width: 100%;
+  padding: 3rem;
+  background-color: rgba(0, 0, 0, 0.912);
+  border-radius: 10px;
+}
+
+.profilePicture {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin-left: 2rem; /* Add margin to the left of the image */
+}
+
+.textContainer {
+  flex: 1;
+  padding: 0 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profilePicture {
+    width: 300px;
+    height: 300px;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+
+  .textContainer {
+    padding: 0 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .profilePicture {
+    width: 250px;
+    height: 250px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .profilePicture {
+    width: 200px;
+    height: 200px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+}
+.linkedinButton {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #9d00ff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 1rem;
+}
+
+.linkedinButton:hover {
+  color:white;
+  background-color: #000000;
+  transform: translateY(-2px);
+}
+
+.linkedinButton:active {
+  transform: translateY(0);
+}

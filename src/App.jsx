@@ -6,11 +6,13 @@ import About from './components/About';
 import Contact from './components/Contact';
 import AnimatedCube from './components/Animation';
 import Pricing from './components/Pricing';
+import AboutMe from './components/Aboutme';
 function App() {
   return (
     <Layout>
       <Home />
       <About />
+      <AboutMe />
       <Services />
       <Pricing />
       <AnimatedCube />

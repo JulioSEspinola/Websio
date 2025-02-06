@@ -11,7 +11,7 @@ function Services() {
 
   return (
     <section id="services" className={styles.services}>
-      <h2 className={styles.title}>Our Services</h2>
+      <h2 className={styles.title}>Services</h2>
       <div className={styles.serviceGrid}>
         {services.map((service, index) => (
           <div key={index} className={styles.serviceCard}>
