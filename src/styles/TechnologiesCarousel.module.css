@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 .carouselContainer {
   width: 100%;
   margin: 0 auto;
   padding: 2rem 5rem;
   background-color: #9d00ff;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .slide {
@@ -26,5 +27,5 @@
   font-weight: bold;
   text-align: center;
   color: black;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }

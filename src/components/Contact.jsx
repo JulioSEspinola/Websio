@@ -68,6 +68,10 @@ function Contact() {
                 <textarea id="message" name="message" required className={styles.textarea} placeholder='Enter your message here...' onChange={(e) => setMessage(e.target.value)}></textarea>
               </div>
 
+              <div>
+                <span className={styles.label}>Call Us: (206) 673-0480</span>
+              </div>
+
               <button type="submit" className={styles.button}>Send Message</button>
             </form>
           </div>
