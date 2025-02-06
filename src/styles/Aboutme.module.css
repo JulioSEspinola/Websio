@@ -123,3 +123,10 @@
 .linkedinButton:active {
   transform: translateY(0);
 }
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+}
