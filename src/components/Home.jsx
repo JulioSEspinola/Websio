@@ -15,7 +15,7 @@ function Home() {
           <source src={videoBackground} type="video/mp4" />
       </video>
       {/* <h1 className={styles.title}>Welcome to Websio</h1> */}
-      <p className={styles.subtitle}>We create web solutions for non-profits and businesses.</p>
+      <p className={styles.subtitle}>We create web <a className={styles.label}>solutions</a> for <a className={styles.label}>non-profits</a> and <a className={styles.label}>businesses</a>.</p>
       <button onClick={() => scrollToSection('contact')}>Get a Free Quote!</button>
     </section>
   );
