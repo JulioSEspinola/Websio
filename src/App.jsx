@@ -7,12 +7,14 @@ import Contact from './components/Contact';
 import AnimatedCube from './components/Animation';
 import Pricing from './components/Pricing';
 import AboutMe from './components/Aboutme';
+import FeatureWork from './components/FeatureWork';
 function App() {
   return (
     <Layout>
       <Home />
       <About />
       <AboutMe />
+      <FeatureWork/>
       <Services />
       <Pricing />
       <AnimatedCube />
